@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'models/**'
-      - 'backend/**'
+    # paths:
+    #   - 'models/**'
+    #   - 'backend/**'
   workflow_dispatch:
 
 jobs:
