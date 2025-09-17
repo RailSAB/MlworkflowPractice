@@ -21,7 +21,7 @@ jobs:
       - name: Format
         run: black part1/*.py
       - name: Train
-        run: python /train.py
+        run: python part1/train.py
       - name: Evaluation
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
